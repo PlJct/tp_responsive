@@ -4,31 +4,44 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" type="text/css" href="basestyle.css"/>
-    <title> elements</title>
+    <link rel="stylesheet" type="text/css" href="tp_responsive.css"/>
+    <title> tp_responsive </title>
 </head>
 
 <body>
-  <h1> hello </h1>
-  <p> hello sic </p>
-  <p> <a href="www.ecosia.fr" target="_blank">ecosia.fr </a> </p>
-  <!--  ctrl+touches fléchées= déplacement de la ligne dite en haut/en bas-->
-  <!-- ctrl+shift+slash = création d'un commentaire/ enlève l'effet commentaire  -->
 
-<img src="ressources/images/harambe2.0.0.jpg" class="img1" alt="Rest In Peace Harambe">
-<!-- splitshire: site d'images gratuites de bonne qualité -->
-<!-- l'ordre chronologie d'importance (2ème règle > 1ère règle) change selon le navigateur et l'éditeur de code (2èmre règle > )  -->
-<blockquote> "Harambe" </blockquote>
-<q> Harambe </q>
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </br> in voluptate velit esse </br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </br> in voluptate velit esse </br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </br> in voluptate velit esse </br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. </p>
-<!--  ctrl+shift+d = dupliquer la ligne -->
+  <picture>
 
-<!-- cd cours // pwd // php -v // php -S  0.0.0.0:8000 // sur un autre terminal, sudo ifconfig et taper la clé inet précédé de https://blablabla/elements.html  -->
-<!--  ctrl+u dans le navigateur pour voir le code pur-->
-<!--  x= horizontal ; y = vertical-->
-<!-- une div prends de base 100% de la largeur avec retour à la ligne si on change de div-->
-<!-- pour les claviers brailles, il n'y a pas de JS possible pour eux, du coup il faut faire un lien pour eux version mobile en cliquant dessus. il ne voit que les alt, em, strong, etc -->
+      <source srcset="images/Monument_Lievin_02.jpg" media="(min-width: 640px)">
+      <img src="images/small-Monument_Lievin_02.jpg" alt="image">
+  </picture>
+
+  <picture>
+
+      <source srcset="images/Lens_-_Fosse_n°_4_des_Mines_de_Lens_(02).jpg" media="(min-width: 640px)">
+      <img src="images/small-Lens_-_Fosse_n°_4_des_Mines_de_Lens_(02).jpg" alt="image">
+  </picture>
+
+  <picture>
+
+      <source srcset="images/Eglise-Lievin04.jpg" media="(min-width: 640px)">
+        <img src="images/small-Eglise-Lievin04.jpg" alt="image">
+  </picture>
+
+  <picture>
+
+      <source srcset="images/Hotel_de_Ville_de_Lievin.jpg" media="(min-width: 640px)">
+      <img src="images/small-683px-Hotel_de_Ville_de_Lievin.jpg" alt="image">
+    </picture>
+
+  <picture>
+
+      <source srcset="images/13_pounder_9_cwt_AA_gun_at_Lievin_May_1918_IWM_Q_6619.jpg" media="(min-width: 640px)">
+      <img src="images/small-13_pounder_9_cwt_AA_gun_at_Lievin_May_1918_IWM_Q_6619.jpg" alt="image">
+  </picture>
+
+
+
+
 </body>
 </html>
