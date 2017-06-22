@@ -72,6 +72,51 @@ a div:hover {
   background-color: green;
 }
 
+section {
+  display: grid;
+  clear: left;
+  /* toujours mettre un clear sur la div avec un float qui suit*/
+  padding: 12px 2px;
+  margin: 50px 0 50px 0;
+}
+
+section img{
+  /*height: 15%;*/
+  width: 10.5em;
+
+}
+.staff {
+  grid-row-start: 1;
+  text-align: left;
+  clear: left;
+  float: left;
+}
+.goalkeepers {
+  grid-row-start: 2;
+  text-align: left;
+  clear: left;
+  float: left;
+}
+.defensers {
+  grid-row-start: 3;
+  text-align: left;
+  clear: left;
+  float: left;
+}
+.middles {
+  grid-row-start: 4;
+  text-align: left;
+  clear: left;
+  float: left;
+}
+.strikers {
+ grid-row-start: 5;
+ text-align: left;
+ clear: left;
+ float: left;
+}
+
+
 footer{
   background-color: #371C1C;
   display: flex;
@@ -80,7 +125,11 @@ footer{
 font-family: "Bitstream Charter"; serif;
 
   margin: 4350px 0 0 0;
-  flex: 2 1 auto;
+  flex: 1 1;
   text-align: center;
 
+}
+
+footer div{
+  /*border: 2px solid white;*/
 }
