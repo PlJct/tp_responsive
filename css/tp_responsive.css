@@ -1,0 +1,86 @@
+@media all and (max-width: 800px) {
+  nav, footer {
+    flex-direction: column;
+  }
+}
+
+img{
+  display: block;
+  float:left;
+  max-width: 100%;
+}
+
+picture-img{
+  max-width: 100%;
+}
+/*afin d'éviter que les images débordent*/
+
+/*nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+
+  }
+
+
+
+
+
+
+li{
+  list-style: none;
+  font-family: "Bitstream Charter", serif;
+  color: blue;
+  background-color: yellow;
+    float:left;
+}
+
+nav a:hover{
+  color: blue;
+
+}*/
+a{
+  text-decoration: none;
+  color: ivory;
+}
+
+nav {
+  background-color: #371C1C;
+  display: flex;
+  justify-content: space-around;
+  color: ivory;
+  font-family: "Bitstream Charter"; serif;
+  font-weight: bold;
+
+}
+@media all and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+  }
+}
+div {
+  padding: 5px;
+  flex: 1 1 auto;
+  text-align: center;
+border-radius: 5px;
+
+  /*border: 2px solid white;*/
+  margin: 10px 0 5px 0;
+    padding: -18px 0 0 0;
+}
+a div:hover {
+  background-color: green;
+}
+
+footer{
+  background-color: #371C1C;
+  display: flex;
+  justify-content: space-around;
+  color: ivory;
+font-family: "Bitstream Charter"; serif;
+
+  margin: 4350px 0 0 0;
+  flex: 2 1 auto;
+  text-align: center;
+
+}
